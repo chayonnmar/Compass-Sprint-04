@@ -1,0 +1,193 @@
+{
+	"info": {
+		"_postman_id": "e3ceb02b-9ace-4dd5-bf29-3a0d5ae08b4c",
+		"name": "Avaliação 4",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21643828"
+	},
+	"item": [
+		{
+			"name": "Lista todos os associados com filtro de cargo político",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Lista todos os associados por nome",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Lista todos os partidos com filtro de ideologia",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Lista todos os associados do partido",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Lista os associados por ID",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Lista os partidos por ID",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Cadastra novos associados",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost8080/associados",
+					"host": [
+						"localhost8080"
+					],
+					"path": [
+						"associados"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cadastra novos partidos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/partidos",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"partidos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Vincula um associado a um partido",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/associados",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"associados"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Altera os associados por ID",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost8080/associados/1",
+					"host": [
+						"localhost8080"
+					],
+					"path": [
+						"associados",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Altera os partidos por ID",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/partidos/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"partidos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deleta os associados por ID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost8080/associados/1",
+					"host": [
+						"localhost8080"
+					],
+					"path": [
+						"associados",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deleta os partidos por ID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/partidos/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"partidos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Remove determinado associado do partido",
+			"request": {
+				"method": "DELETE",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
